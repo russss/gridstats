@@ -15,6 +15,7 @@ def parse_elexon_timestamp(ts: str):
 class PushListener:
     def __init__(self):
         self.db = DB()
+        self.log = logging.getLogger(__name__)
 
         self.client = BMRSClient(config["ELEXON_API_KEY"])
         self.client.register_handler("FREQ", self.handle_freq)
@@ -25,7 +26,7 @@ class PushListener:
         await self.client.run()
 
     async def handle_freq(self, doc):
-        print("FREQ")
+        self.log.info("Handling FREQ message")
         await self.db.db.execute_many(
             query="""INSERT INTO frequency(time, frequency)
                         VALUES (:time, :frequency)
@@ -40,7 +41,7 @@ class PushListener:
         )
 
     async def handle_fuelinst(self, doc):
-        print("FUELINST")
+        self.log.info("Handling FUELINST message")
         await self.db.db.execute_many(
             query="""INSERT INTO generation_by_fuel_type_inst
                         (time, fuel_type, generation)
