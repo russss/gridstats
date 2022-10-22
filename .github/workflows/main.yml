@@ -1,0 +1,30 @@
+name: Fetcher Image
+
+on:
+  push:
+   branches:
+    - main
+   paths:
+    - 'fetcher/**'
+
+jobs:
+  build:
+   env:
+    IMAGE: ghcr.io/russss/gridstats-fetcher
+   runs-on: ubuntu-latest
+   steps:
+    - uses: actions/checkout@v1
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build and push
+      id: docker_build
+      uses: docker/build-push-action@v2
+      with:
+        context: ./fetcher
+        push: true
+        tags: |
+            ${{ env.IMAGE }}:${{ github.sha }}-${{ github.run_number }}
