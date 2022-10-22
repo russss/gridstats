@@ -6,6 +6,7 @@ on:
     - main
    paths:
     - 'fetcher/**'
+    - '.github/workflows/fetcher.yml'
 
 jobs:
   build:
