@@ -74,7 +74,8 @@ class ElexonFetcher:
 
                     start = time.perf_counter()
                     try:
-                        await job.func()
+                        async with self.db.db.transaction():
+                            await job.func()
                     except Exception:
                         self.log.exception(f"Error running {job}")
 
