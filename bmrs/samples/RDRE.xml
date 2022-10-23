@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:55:36:GMT</pubTs>
+	<flow>RDRE</flow>
+<msg>
+	<subject>BMRA.DYNAMIC.T_PEMB-31.RDRE</subject>
+<row>
+	<TE>2017-04-10 09:55:00:GMT</TE>
+	<R1>17.5</R1>
+	<RB>150</RB>
+	<R2>27.5</R2>
+	<RC>80</RC>
+	<R3>15.0</R3>
+</row>
+</msg>
+</msgGrp>

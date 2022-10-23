@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Message xmlns="http://bmreports.com/XSD/1.0/remit.xsd">
+    <Version>1.0</Version>
+    <mRID>48X000000000022A-NGET-RMT-00105796</mRID>
+    <revisionNumber>1</revisionNumber>
+    <DocumentType>REMIT_document</DocumentType>
+    <Sender_MarketParticipantID>48X000000000022A</Sender_MarketParticipantID>
+    <Sender_MarketParticipantRole>A39</Sender_MarketParticipantRole>
+    <Receiver_MarketParticipantID>10X1001A1001A59Q</Receiver_MarketParticipantID>
+    <Receiver_MarketParticipantRole>A32</Receiver_MarketParticipantRole>
+    <CreatedDateTime>2017-04-10T08:00:14Z</CreatedDateTime>
+    <InsideInformation>
+        <MessageHeading>REMIT Event ID 2006</MessageHeading>
+        <EventType>PLANNEDOUTAGE</EventType>
+        <Participant_MarketParticipantID>EDFE</Participant_MarketParticipantID>
+        <AssetId>DNGB21</AssetId>
+        <AssetType>Production</AssetType>
+        <AffectedUnit>T_DNGB21</AffectedUnit>
+        <AffectedUnitEIC>48W000000DNGB216</AffectedUnitEIC>
+        <AffectedArea>N</AffectedArea>
+        <FuelType>NUCLEAR</FuelType>
+        <NormalCapacity>550</NormalCapacity>
+        <AvailableCapacity>479</AvailableCapacity>
+        <EventStatus>FUTURE</EventStatus>
+        <EventStart>2017-06-14T11:30:00Z</EventStart>
+        <EventEnd>2017-06-14T12:00:00Z</EventEnd>
+        <DurationUncertainty></DurationUncertainty>
+        <Cause>De-load</Cause>
+        <RelatedInformation>2006 : Load reduction into an outage</RelatedInformation>
+    </InsideInformation>
+</Message>

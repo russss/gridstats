@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:31:14:GMT</pubTs>
+	<flow>INDO</flow>
+<msg>
+	<subject>BMRA.SYSTEM.INDO</subject>
+<row>
+	<TP>2017-04-10 09:30:00:GMT</TP>
+	<SD>2017-04-10 00:00:00:GMT</SD>
+	<SP>21</SP>
+	<VD>30933.000</VD>
+</row>
+</msg>
+</msgGrp>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2018-03-17 15:22:03:GMT</pubTs>
+	<flow>SYS_WARN</flow>
+<msg>
+	<subject>BMRA.SYSTEM.SYSWARN</subject>
+<row>
+	<TP>2018-03-17 15:22:03:GMT</TP>
+	<SW>NATIONAL GRID NOTIFICATION of excess energy prices used for settlement outside of BALIT for SO to SO Transactions over the National Grid/RTE  Interconnector.  Prices cover 23:00Hrs Today to 05:00Hrs Tomorrow (UK local time) and are in Euro/MWh. From RTE: Offer 350.00; Bid 0.00 From NGC: Offer 309.64; Bid -102.55  Prices cover 05:00Hrs Tomorrow to 19:00Hrs Tomorrow (UK local time) and are in Euro/MWh. From RTE: Offer 350.00; Bid 0.00 From NGC: Offer 323.03; Bid 30.02  Prices cover 19:00Hrs Tomorrow to 23:00Hrs Tomorrow (UK local time) and are in Euro/MWh. From RTE: Offer 350.00; Bid 0.00 From NGC: Offer 309.64; Bid -102.55</SW>
+</row>
+</msg>
+</msgGrp>

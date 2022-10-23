@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 13:46:40:GMT</pubTs>
+	<flow>FREQ</flow>
+<msg>
+	<subject>BMRA.SYSTEM.FREQ</subject>
+<row>
+	<TS>2017-04-09 13:44:00:GMT</TS>
+	<SF>50.095</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:44:15:GMT</TS>
+	<SF>50.074</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:44:30:GMT</TS>
+	<SF>50.046</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:44:45:GMT</TS>
+	<SF>50.067</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:45:00:GMT</TS>
+	<SF>50.048</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:45:15:GMT</TS>
+	<SF>50.057</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:45:30:GMT</TS>
+	<SF>50.084</SF>
+</row>
+
+<row>
+	<TS>2017-04-09 13:45:45:GMT</TS>
+	<SF>50.058</SF>
+</row>
+</msg>
+</msgGrp>
+

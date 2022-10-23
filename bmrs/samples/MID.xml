@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:30:24:GMT</pubTs>
+	<flow>MID</flow>
+<msg>
+	<subject>BMRA.SYSTEM.MID</subject>
+<row>
+	<MI>APXMIDP</MI>
+	<SD>2017-04-10 00:00:00:GMT</SD>
+	<SP>21</SP>
+	<M1>31.110</M1>
+	<M2>862.7000</M2>
+</row>
+</msg>
+</msgGrp>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:41:34:GMT</pubTs>
+	<flow>LOLPDM</flow>
+<msg>
+	<subject>BMRA.SYSTEM.LOLP</subject>
+	<TP>2017-04-10 09:41:34:GMT</TP>
+	<NR>4</NR>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>24</SP>
+	<LP>0.000000000</LP>
+	<DR>12075.6770000</DR>
+</row>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>26</SP>
+	<LP>0.000000000</LP>
+	<DR>12251.8640000</DR>
+</row>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>30</SP>
+	<LP>0.000000000</LP>
+	<DR>12512.5190000</DR>
+</row>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>38</SP>
+	<LP>0.000000000</LP>
+	<DR>8199.7670000</DR>
+</row>
+</msg>
+</msgGrp>

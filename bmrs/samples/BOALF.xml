@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 13:46:27:GMT</pubTs>
+	<flow>BOALF</flow>
+<msg>
+	<subject>BMRA.BM.T_HRSTW-1.BOALF</subject>
+	<NK>12614</NK>
+	<SO>F</SO>
+	<PF>F</PF>
+	<TA>2017-04-09 13:45:00:GMT</TA>
+	<AD>F</AD>
+	<NP>4</NP>
+<row>
+	<TS>2017-04-09 13:47:00:GMT</TS>
+	<VA>41.000</VA>
+</row>
+<row>
+	<TS>2017-04-09 13:48:00:GMT</TS>
+	<VA>10.000</VA>
+</row>
+<row>
+	<TS>2017-04-09 14:18:00:GMT</TS>
+	<VA>10.000</VA>
+</row>
+<row>
+	<TS>2017-04-09 14:19:00:GMT</TS>
+	<VA>46.000</VA>
+</row>
+</msg>
+</msgGrp>
+

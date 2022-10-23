@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 21:09:09:GMT</pubTs>
+	<flow>DISBSAD</flow>
+<msg>
+	<subject>BMRA.SYSTEM.DISBSAD</subject>
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>8</AI>
+	<SO>F</SO>
+	<PF>F</PF>
+	<JC>-227.50</JC>
+	<JV>-12.500</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>7</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>9000.00</JC>
+	<JV>150.000</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>6</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>6710.00</JC>
+	<JV>110.000</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>5</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>9600.00</JC>
+	<JV>120.000</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>4</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>-2275.00</JC>
+	<JV>-125.000</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>3</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>-4312.50</JC>
+	<JV>-250.000</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>2</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>-2528.50</JC>
+	<JV>-194.500</JV>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>47</SP>
+	<AI>1</AI>
+	<SO>T</SO>
+	<PF>F</PF>
+	<JC>12880.00</JC>
+	<JV>115.000</JV>
+</row>
+</msg>
+</msgGrp>

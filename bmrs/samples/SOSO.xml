@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 21:10:49:GMT</pubTs>
+	<flow>SOSO</flow>
+<msg>
+	<subject>BMRA.SYSTEM.SOSO</subject>
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_1</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_2</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_3</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_4</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_5</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_6</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_7</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>EG_20170409_2300_8</IC>
+	<TQ>25</TQ>
+	<PT>0.000</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_9</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_10</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_11</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_12</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_13</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_14</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_15</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_EG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>EG_20170409_2300_16</IC>
+	<TQ>25</TQ>
+	<PT>64.250</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_17</IC>
+	<TQ>25</TQ>
+	<PT>13.070</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_18</IC>
+	<TQ>25</TQ>
+	<PT>12.600</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_19</IC>
+	<TQ>25</TQ>
+	<PT>12.230</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_20</IC>
+	<TQ>25</TQ>
+	<PT>11.930</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_21</IC>
+	<TQ>25</TQ>
+	<PT>11.690</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_22</IC>
+	<TQ>25</TQ>
+	<PT>11.490</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_23</IC>
+	<TQ>25</TQ>
+	<PT>11.310</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A02</TD>
+	<IC>NG_20170409_2300_24</IC>
+	<TQ>25</TQ>
+	<PT>11.160</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_25</IC>
+	<TQ>25</TQ>
+	<PT>81.460</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_26</IC>
+	<TQ>25</TQ>
+	<PT>80.500</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_27</IC>
+	<TQ>25</TQ>
+	<PT>79.370</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_28</IC>
+	<TQ>25</TQ>
+	<PT>78.060</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_29</IC>
+	<TQ>25</TQ>
+	<PT>76.570</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_30</IC>
+	<TQ>25</TQ>
+	<PT>74.890</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_31</IC>
+	<TQ>25</TQ>
+	<PT>73.090</PT>
+</row>
+
+<row>
+	<TT>EWIC_NG</TT>
+	<ST>2017-04-09 23:00:00:GMT</ST>
+	<TD>A01</TD>
+	<IC>NG_20170409_2300_32</IC>
+	<TQ>25</TQ>
+	<PT>71.200</PT>
+</row>
+</msg>
+</msgGrp>

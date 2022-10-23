@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 13:45:56:GMT</pubTs>
+	<flow>FUELINST</flow>
+<msg>
+	<subject>BMRA.SYSTEM.FUELINST</subject>
+	<TP>2017-04-09 13:45:00:GMT</TP>
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>CCGT</FT>
+	<FG>6945</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>COAL</FT>
+	<FG>200</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>INTEW</FT>
+	<FG>-66</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>INTFR</FT>
+	<FG>1803</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>INTIRL</FT>
+	<FG>-107</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>INTNED</FT>
+	<FG>531</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>NPSHYD</FT>
+	<FG>121</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>NUCLEAR</FT>
+	<FG>6554</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>OCGT</FT>
+	<FG>0</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>OIL</FT>
+	<FG>0</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>OTHER</FT>
+	<FG>639</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>PS</FT>
+	<FG>-122</FG>
+</row>
+
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>30</SP>
+	<TS>2017-04-09 13:40:00:GMT</TS>
+	<FT>WIND</FT>
+	<FG>4327</FG>
+</row>
+</msg>
+</msgGrp>

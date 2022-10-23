@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Unavailability_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-6:outagedocument:3:0">
+<mRID>48X000000000046X-NGET-PUGU-00001404</mRID>
+<revisionNumber>4</revisionNumber>
+<type>A80</type>
+<process.processType>A26</process.processType>
+<createdDateTime>2017-04-10T09:28:23Z</createdDateTime>
+<sender_MarketParticipant.mRID codingScheme="A01">10X1001A1001A59Q</sender_MarketParticipant.mRID>
+<sender_MarketParticipant.marketRole.type>A39</sender_MarketParticipant.marketRole.type>
+<receiver_MarketParticipant.mRID codingScheme="A01">10X1001A1001A450</receiver_MarketParticipant.mRID>
+<receiver_MarketParticipant.marketRole.type>A32</receiver_MarketParticipant.marketRole.type>
+<unavailability_Time_Period.timeInterval>
+<start>2017-07-25T07:00Z</start>
+<end>2017-07-25T17:00Z</end>
+</unavailability_Time_Period.timeInterval>
+<TimeSeries>
+<mRID>MP-NGET-PUGU-TS-00001404</mRID>
+<businessType>A53</businessType>
+<biddingZone_Domain.mRID codingScheme="A01">10YGB----------A</biddingZone_Domain.mRID>
+<start_DateAndOrTime.date>2017-07-25</start_DateAndOrTime.date>
+<start_DateAndOrTime.time>07:00:00Z</start_DateAndOrTime.time>
+<end_DateAndOrTime.date>2017-07-25</end_DateAndOrTime.date>
+<end_DateAndOrTime.time>17:00:00Z</end_DateAndOrTime.time>
+<quantity_Measure_Unit.name>MAW</quantity_Measure_Unit.name>
+<curveType>A03</curveType>
+<production_RegisteredResource.mRID codingScheme="A01">48WSTN0000WDNSOV</production_RegisteredResource.mRID>
+<production_RegisteredResource.pSRType.powerSystemResources.mRID codingScheme="A01">T_WDNSO-2</production_RegisteredResource.pSRType.powerSystemResources.mRID>
+<Available_Period>
+<timeInterval>
+<start>2017-07-25T07:00Z</start>
+<end>2017-07-25T17:00Z</end>
+</timeInterval>
+<resolution>PT30M</resolution>
+<Point>
+<position>1</position>
+<quantity>0</quantity>
+</Point>
+</Available_Period>
+</TimeSeries>
+<Reason>
+<code>B19</code>
+</Reason>
+</Unavailability_MarketDocument>

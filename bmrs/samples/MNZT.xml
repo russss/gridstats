@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:36:22:GMT</pubTs>
+	<flow>MNZT</flow>
+<msg>
+	<subject>BMRA.DYNAMIC.T_CRUA-4.MNZT</subject>
+<row>
+	<TE>2017-04-10 09:35:00:GMT</TE>
+	<MN>5</MN>
+</row>
+</msg>
+</msgGrp>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 21:05:24:GMT</pubTs>
+	<flow>MELS</flow>
+<msg>
+	<subject>BMRA.BM.T_DNGB21.MEL</subject>
+	<SD>2017-04-09 00:00:00</SD>
+	<SP>45</SP>
+	<NP>4</NP>
+<row>
+	<TS>2017-04-09 21:00:00:GMT</TS>
+	<VE>300.000</VE>
+</row>
+<row>
+	<TS>2017-04-09 21:06:00:GMT</TS>
+	<VE>300.000</VE>
+</row>
+<row>
+	<TS>2017-04-09 21:06:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+<row>
+	<TS>2017-04-09 21:30:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_DNGB21.MEL</subject>
+	<SD>2017-04-09 00:00:00</SD>
+	<SP>46</SP>
+	<NP>2</NP>
+<row>
+	<TS>2017-04-09 21:30:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+<row>
+	<TS>2017-04-09 22:00:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_DNGB21.MEL</subject>
+	<SD>2017-04-09 00:00:00</SD>
+	<SP>47</SP>
+	<NP>2</NP>
+<row>
+	<TS>2017-04-09 22:00:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+<row>
+	<TS>2017-04-09 22:30:00:GMT</TS>
+	<VE>315.000</VE>
+</row>
+</msg>
+</msgGrp>

@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 08:51:42:GMT</pubTs>
+	<flow>ISPSTACK</flow>
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>31</SN>
+	<CI>T_COSO-1</CI>
+	<NK>135680</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>29.75</UP>
+	<IP>29.75</IP>
+	<IV>-1.6676</IV>
+	<DA>-1.6676</DA>
+	<AV>-1.6676</AV>
+	<NV>-1.6676</NV>
+	<PV>0</PV>
+	<FP>29.75</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>29</SN>
+	<CI>T_COSO-1</CI>
+	<NK>135681</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>29.75</UP>
+	<IP>29.75</IP>
+	<IV>-53.1667</IV>
+	<DA>-53.1667</DA>
+	<AV>-53.1667</AV>
+	<NV>-53.1667</NV>
+	<PV>0</PV>
+	<FP>29.75</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>30</SN>
+	<CI>T_COSO-1</CI>
+	<NK>135682</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>29.75</UP>
+	<IP>29.75</IP>
+	<IV>-1.9491</IV>
+	<DA>-1.9491</DA>
+	<AV>-1.9491</AV>
+	<NV>-1.9491</NV>
+	<PV>0</PV>
+	<FP>29.75</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>34</SN>
+	<CI>T_CDCL-1</CI>
+	<NK>61682</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>25.3</UP>
+	<IP>25.3</IP>
+	<IV>-11.9167</IV>
+	<DA>-11.9167</DA>
+	<AV>-11.9167</AV>
+	<NV>-11.9167</NV>
+	<PV>0</PV>
+	<FP>25.3</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>35</SN>
+	<CI>T_CDCL-1</CI>
+	<NK>61683</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>25.3</UP>
+	<IP>25.3</IP>
+	<IV>-52.0833</IV>
+	<DA>-52.0833</DA>
+	<AV>-52.0833</AV>
+	<NV>-52.0833</NV>
+	<PV>0</PV>
+	<FP>25.3</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>11</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87514</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-0.845</IV>
+	<DA>-0.845</DA>
+	<AV>-0.845</AV>
+	<NV>-0.845</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>10</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87515</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-56.8967</IV>
+	<DA>-56.8967</DA>
+	<AV>-56.8967</AV>
+	<NV>-56.8967</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>9</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87516</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-26.7583</IV>
+	<DA>-26.7583</DA>
+	<AV>-26.7583</AV>
+	<NV>-26.7583</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>8</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87517</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-10.6333</IV>
+	<DA>-10.6333</DA>
+	<AV>-10.6333</AV>
+	<NV>-10.6333</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>7</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87518</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-2.4</IV>
+	<DA>-2.4</DA>
+	<AV>-2.4</AV>
+	<NV>-2.4</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>6</SN>
+	<CI>T_KEAD-1</CI>
+	<NK>87519</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.15</UP>
+	<IP>30.15</IP>
+	<IV>-0.205</IV>
+	<DA>-0.205</DA>
+	<AV>-0.205</AV>
+	<NV>-0.205</NV>
+	<PV>0</PV>
+	<FP>30.15</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>15</SN>
+	<CI>T_MEDP-1</CI>
+	<NK>64868</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.1</UP>
+	<IP>30.1</IP>
+	<IV>-60.4167</IV>
+	<DA>-60.4167</DA>
+	<AV>-60.4167</AV>
+	<NV>-60.4167</NV>
+	<PV>0</PV>
+	<FP>30.1</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>14</SN>
+	<CI>T_MEDP-1</CI>
+	<NK>64869</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.1</UP>
+	<IP>30.1</IP>
+	<IV>-80.5556</IV>
+	<DA>-80.5556</DA>
+	<AV>-80.5556</AV>
+	<NV>-80.5556</NV>
+	<PV>0</PV>
+	<FP>30.1</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>13</SN>
+	<CI>T_MEDP-1</CI>
+	<NK>64870</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.1</UP>
+	<IP>30.1</IP>
+	<IV>-4.0278</IV>
+	<DA>-4.0278</DA>
+	<AV>-4.0278</AV>
+	<NV>-4.0278</NV>
+	<PV>0</PV>
+	<FP>30.1</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>32</SN>
+	<CI>T_ROCK-1</CI>
+	<NK>120726</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>29.65</UP>
+	<IP>29.65</IP>
+	<IV>-1.2679</IV>
+	<DA>-1.2679</DA>
+	<AV>-1.2679</AV>
+	<NV>-1.2679</NV>
+	<PV>0</PV>
+	<FP>29.65</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>36</SN>
+	<CI>T_SCCL-2</CI>
+	<NK>51341</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>22.5</UP>
+	<IP>22.5</IP>
+	<IV>-1.1583</IV>
+	<DA>-1.1583</DA>
+	<AV>-1.1583</AV>
+	<NV>-1.1583</NV>
+	<PV>0</PV>
+	<FP>22.5</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>38</SN>
+	<CI>T_SCCL-2</CI>
+	<NK>51342</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>22.5</UP>
+	<IP>22.5</IP>
+	<IV>-25.6</IV>
+	<DA>-25.6</DA>
+	<AV>-25.6</AV>
+	<NV>-25.6</NV>
+	<PV>0</PV>
+	<FP>22.5</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>37</SN>
+	<CI>T_SCCL-2</CI>
+	<NK>51344</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>22.5</UP>
+	<IP>22.5</IP>
+	<IV>-26.5464</IV>
+	<DA>-26.5464</DA>
+	<AV>-26.5464</AV>
+	<NV>-26.5464</NV>
+	<PV>0</PV>
+	<FP>22.5</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>39</SN>
+	<CI>T_SCCL-3</CI>
+	<NK>56859</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>20</UP>
+	<IP>20</IP>
+	<IV>-4.1083</IV>
+	<DA>-4.1083</DA>
+	<AV>-4.1083</AV>
+	<NV>-4.1083</NV>
+	<PV>-3.391</PV>
+	<FP>20</FP>
+	<TM>0.99101</TM>
+	<TV>-3.36051491</TV>
+	<TC>-67.21029819999998</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>33</SN>
+	<CI>E_SHOS-1</CI>
+	<NK>81724</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>27.32</UP>
+	<IP>27.32</IP>
+	<IV>-0.7381</IV>
+	<DA>0</DA>
+	<AV>0</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>27.32</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>28</SN>
+	<CI>T_BAGE-1</CI>
+	<NK>40548</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-9.9573</IV>
+	<DA>-9.9573</DA>
+	<AV>-9.9573</AV>
+	<NV>-9.9573</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>3</SN>
+	<CI>T_SPLN-1</CI>
+	<NK>131874</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>31.51</UP>
+	<IP>31.51</IP>
+	<IV>-19.4439</IV>
+	<DA>-19.4439</DA>
+	<AV>-19.4439</AV>
+	<NV>-19.4439</NV>
+	<PV>0</PV>
+	<FP>31.51</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>2</SN>
+	<CI>T_SPLN-1</CI>
+	<NK>131875</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>31.51</UP>
+	<IP>31.51</IP>
+	<IV>-74.4978</IV>
+	<DA>-74.4978</DA>
+	<AV>-74.4978</AV>
+	<NV>-74.4978</NV>
+	<PV>0</PV>
+	<FP>31.51</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>1</SN>
+	<CI>T_SPLN-1</CI>
+	<NK>131876</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>31.51</UP>
+	<IP>31.51</IP>
+	<IV>-50.575</IV>
+	<DA>-50.575</DA>
+	<AV>-50.575</AV>
+	<NV>-50.575</NV>
+	<PV>0</PV>
+	<FP>31.51</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>41</SN>
+	<CI>T_PEHE-1</CI>
+	<NK>95066</NK>
+	<NN>-2</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>5</UP>
+	<IP>5</IP>
+	<IV>-18.8257</IV>
+	<DA>-18.8257</DA>
+	<AV>-18.8257</AV>
+	<NV>-10.11354</NV>
+	<PV>-10.11354</PV>
+	<FP>5</FP>
+	<TM>0.99101</TM>
+	<TV>-10.0226192754</TV>
+	<TC>-50.113096377</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>42</SN>
+	<CI>T_PEHE-1</CI>
+	<NK>95066</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>5</UP>
+	<IP>5</IP>
+	<IV>-54.7475</IV>
+	<DA>-54.7475</DA>
+	<AV>-54.7475</AV>
+	<NV>-29.41146</NV>
+	<PV>-29.41146</PV>
+	<FP>5</FP>
+	<TM>0.99101</TM>
+	<TV>-29.1470509746</TV>
+	<TC>-145.735254873</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>27</SN>
+	<CI>E_CLAC-1</CI>
+	<NK>34808</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-1.5</IV>
+	<DA>-1.5</DA>
+	<AV>-1.5</AV>
+	<NV>-1.5</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>4</SN>
+	<CI>T_MRWD-1</CI>
+	<NK>75430</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.2</UP>
+	<IP>30.2</IP>
+	<IV>-15.8359</IV>
+	<DA>-15.8359</DA>
+	<AV>-15.8359</AV>
+	<NV>-15.8359</NV>
+	<PV>0</PV>
+	<FP>30.2</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>5</SN>
+	<CI>T_MRWD-1</CI>
+	<NK>75431</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.2</UP>
+	<IP>30.2</IP>
+	<IV>-177.1641</IV>
+	<DA>-177.1641</DA>
+	<AV>-177.1641</AV>
+	<NV>-177.1641</NV>
+	<PV>0</PV>
+	<FP>30.2</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>40</SN>
+	<CI>T_GRAI-6</CI>
+	<NK>38779</NK>
+	<NN>-2</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>11.95</UP>
+	<IP>11.95</IP>
+	<IV>-7.084</IV>
+	<DA>-7.084</DA>
+	<AV>-7.084</AV>
+	<NV>-7.084</NV>
+	<PV>-7.084</PV>
+	<FP>11.95</FP>
+	<TM>0.99101</TM>
+	<TV>-7.020314839999999</TV>
+	<TC>-83.89276233799998</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>12</SN>
+	<CI>T_GRAI-6</CI>
+	<NK>38779</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.1</UP>
+	<IP>30.1</IP>
+	<IV>-2.066</IV>
+	<DA>-2.066</DA>
+	<AV>-2.066</AV>
+	<NV>-2.066</NV>
+	<PV>0</PV>
+	<FP>30.1</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>18</SN>
+	<CI>T_SVRP-10</CI>
+	<NK>39962</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-0.9562</IV>
+	<DA>-0.9562</DA>
+	<AV>-0.9562</AV>
+	<NV>-0.9562</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>21</SN>
+	<CI>T_SVRP-10</CI>
+	<NK>39963</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-7.7574</IV>
+	<DA>-7.7574</DA>
+	<AV>-7.7574</AV>
+	<NV>-7.7574</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>22</SN>
+	<CI>T_SVRP-10</CI>
+	<NK>39964</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-27.9697</IV>
+	<DA>-27.9697</DA>
+	<AV>-27.9697</AV>
+	<NV>-27.9697</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>26</SN>
+	<CI>T_SVRP-10</CI>
+	<NK>39965</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-6.8318</IV>
+	<DA>-6.8318</DA>
+	<AV>-6.8318</AV>
+	<NV>-6.8318</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>24</SN>
+	<CI>T_SVRP-20</CI>
+	<NK>39897</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-0.9375</IV>
+	<DA>-0.9375</DA>
+	<AV>-0.9375</AV>
+	<NV>-0.9375</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>25</SN>
+	<CI>T_SVRP-20</CI>
+	<NK>39898</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-9.6686</IV>
+	<DA>-9.6686</DA>
+	<AV>-9.6686</AV>
+	<NV>-9.6686</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>20</SN>
+	<CI>T_SVRP-20</CI>
+	<NK>39899</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-25.5606</IV>
+	<DA>-25.5606</DA>
+	<AV>-25.5606</AV>
+	<NV>-25.5606</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>23</SN>
+	<CI>T_SVRP-20</CI>
+	<NK>39900</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-31.1818</IV>
+	<DA>-31.1818</DA>
+	<AV>-31.1818</AV>
+	<NV>-31.1818</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>19</SN>
+	<CI>T_SVRP-20</CI>
+	<NK>39901</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30</UP>
+	<IP>30</IP>
+	<IV>-0.1212</IV>
+	<DA>-0.1212</DA>
+	<AV>-0.1212</AV>
+	<NV>-0.1212</NV>
+	<PV>0</PV>
+	<FP>30</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>16</SN>
+	<CI>T_CARR-1</CI>
+	<NK>7618</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.05</UP>
+	<IP>30.05</IP>
+	<IV>-6.6</IV>
+	<DA>-6.6</DA>
+	<AV>-6.6</AV>
+	<NV>-6.6</NV>
+	<PV>0</PV>
+	<FP>30.05</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>B</BO>
+	<SN>17</SN>
+	<CI>T_CARR-1</CI>
+	<NK>7620</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>30.05</UP>
+	<IP>30.05</IP>
+	<IV>-0.8333</IV>
+	<DA>-0.8333</DA>
+	<AV>-0.8333</AV>
+	<NV>-0.8333</NV>
+	<PV>0</PV>
+	<FP>30.05</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>4</SN>
+	<CI>T_CDCL-1</CI>
+	<NK>61684</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>44</UP>
+	<IP>44</IP>
+	<IV>15.9969</IV>
+	<DA>15.9969</DA>
+	<AV>15.9969</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>44</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>1</SN>
+	<CI>T_SCCL-2</CI>
+	<NK>51343</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>41</UP>
+	<IP>41</IP>
+	<IV>3.7436</IV>
+	<DA>3.7436</DA>
+	<AV>3.7436</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>41</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>2</SN>
+	<CI>T_SCCL-2</CI>
+	<NK>51344</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>41</UP>
+	<IP>41</IP>
+	<IV>0.1237</IV>
+	<DA>0.1237</DA>
+	<AV>0.1237</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>41</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>3</SN>
+	<CI>T_SCCL-3</CI>
+	<NK>56860</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>41</UP>
+	<IP>41</IP>
+	<IV>3.8778</IV>
+	<DA>3.8778</DA>
+	<AV>3.8778</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>41</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>7</SN>
+	<CI>T_CRUA-3</CI>
+	<NK>61531</NK>
+	<NN>1</NN>
+	<CF>T</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>113</UP>
+	<IP>113</IP>
+	<IV>2.5</IV>
+	<DA>2.5</DA>
+	<AV>2.5</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>0</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>8</SN>
+	<CI>T_CRUA-3</CI>
+	<NK>61532</NK>
+	<NN>1</NN>
+	<CF>T</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>113</UP>
+	<IP>113</IP>
+	<IV>3.3333</IV>
+	<DA>3.3333</DA>
+	<AV>3.3333</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>0</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>6</SN>
+	<CI>T_PEHE-1</CI>
+	<NK>95067</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>50</UP>
+	<IP>50</IP>
+	<IV>0.0013</IV>
+	<DA>0</DA>
+	<AV>0</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>50</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.SYSTEM.ISPSTACK</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<BO>O</BO>
+	<SN>5</SN>
+	<CI>T_CARR-1</CI>
+	<NK>7619</NK>
+	<NN>-1</NN>
+	<CF>F</CF>
+	<SO>F</SO>
+	<PF>F</PF>
+	<RI>F</RI>
+	<UP>45</UP>
+	<IP>45</IP>
+	<IV>4.4729</IV>
+	<DA>4.4729</DA>
+	<AV>4.4729</AV>
+	<NV>0</NV>
+	<PV>0</PV>
+	<FP>45</FP>
+	<TM>1</TM>
+	<TV>0</TV>
+	<TC>0</TC>
+</row>
+</msg>
+</msgGrp>

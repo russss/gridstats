@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 08:51:42:GMT</pubTs>
+	<flow>BOAV</flow>
+<msg>
+	<subject>BMRA.BM.T_COSO-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>135680</NK>
+	<OV>0.0000</OV>
+	<BV>-1.6676</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_COSO-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>135681</NK>
+	<OV>0.0000</OV>
+	<BV>-53.1667</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_COSO-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>135682</NK>
+	<OV>0.0000</OV>
+	<BV>-1.9491</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CDCL-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>61682</NK>
+	<OV>0.0000</OV>
+	<BV>-11.9167</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CDCL-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>61683</NK>
+	<OV>0.0000</OV>
+	<BV>-52.0833</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CDCL-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>61684</NK>
+	<OV>15.9969</OV>
+	<BV>0.0000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87514</NK>
+	<OV>0.0000</OV>
+	<BV>-0.8450</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87515</NK>
+	<OV>0.0000</OV>
+	<BV>-56.8967</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87516</NK>
+	<OV>0.0000</OV>
+	<BV>-26.7583</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87517</NK>
+	<OV>0.0000</OV>
+	<BV>-10.6333</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87518</NK>
+	<OV>0.0000</OV>
+	<BV>-2.4000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_KEAD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>87519</NK>
+	<OV>0.0000</OV>
+	<BV>-0.2050</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_MEDP-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>64868</NK>
+	<OV>0.0000</OV>
+	<BV>-60.4167</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_MEDP-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>64869</NK>
+	<OV>0.0000</OV>
+	<BV>-80.5556</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_MEDP-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>64870</NK>
+	<OV>0.0000</OV>
+	<BV>-4.0278</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_ROCK-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>120726</NK>
+	<OV>0.0000</OV>
+	<BV>-1.2679</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-2.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>51341</NK>
+	<OV>0.0000</OV>
+	<BV>-1.1583</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-2.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>51342</NK>
+	<OV>0.0000</OV>
+	<BV>-25.6000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-2.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>51343</NK>
+	<OV>3.7436</OV>
+	<BV>0.0000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-2.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>51344</NK>
+	<OV>0.1237</OV>
+	<BV>-26.5464</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-3.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>56859</NK>
+	<OV>0.0000</OV>
+	<BV>-4.1083</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SCCL-3.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>56860</NK>
+	<OV>3.8778</OV>
+	<BV>0.0000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.E_SHOS-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>81724</NK>
+	<OV>0.0000</OV>
+	<BV>-0.7381</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_BAGE-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>40548</NK>
+	<OV>0.0000</OV>
+	<BV>-9.9573</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SPLN-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>131874</NK>
+	<OV>0.0000</OV>
+	<BV>-19.4439</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SPLN-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>131875</NK>
+	<OV>0.0000</OV>
+	<BV>-74.4978</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SPLN-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>131876</NK>
+	<OV>0.0000</OV>
+	<BV>-50.5750</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CRUA-3.BOAV.1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>1</NN>
+	<NK>61531</NK>
+	<OV>2.5000</OV>
+	<BV>0.0000</BV>
+	<SA>S</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CRUA-3.BOAV.1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>1</NN>
+	<NK>61532</NK>
+	<OV>3.3333</OV>
+	<BV>0.0000</BV>
+	<SA>S</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_PEHE-1.BOAV.-2</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-2</NN>
+	<NK>95066</NK>
+	<OV>0.0000</OV>
+	<BV>-18.8257</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_PEHE-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>95066</NK>
+	<OV>0.0000</OV>
+	<BV>-54.7475</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_PEHE-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>95067</NK>
+	<OV>0.0013</OV>
+	<BV>0.0000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.E_CLAC-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>34808</NK>
+	<OV>0.0000</OV>
+	<BV>-1.5000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_MRWD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>75430</NK>
+	<OV>0.0000</OV>
+	<BV>-15.8359</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_MRWD-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>75431</NK>
+	<OV>0.0000</OV>
+	<BV>-177.1641</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_GRAI-6.BOAV.-2</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-2</NN>
+	<NK>38779</NK>
+	<OV>0.0000</OV>
+	<BV>-7.0840</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_GRAI-6.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>38779</NK>
+	<OV>0.0000</OV>
+	<BV>-2.0660</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-10.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39962</NK>
+	<OV>0.0000</OV>
+	<BV>-0.9562</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-10.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39963</NK>
+	<OV>0.0000</OV>
+	<BV>-7.7574</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-10.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39964</NK>
+	<OV>0.0000</OV>
+	<BV>-27.9697</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-10.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39965</NK>
+	<OV>0.0000</OV>
+	<BV>-6.8318</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-20.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39897</NK>
+	<OV>0.0000</OV>
+	<BV>-0.9375</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-20.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39898</NK>
+	<OV>0.0000</OV>
+	<BV>-9.6686</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-20.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39899</NK>
+	<OV>0.0000</OV>
+	<BV>-25.5606</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-20.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39900</NK>
+	<OV>0.0000</OV>
+	<BV>-31.1818</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_SVRP-20.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>39901</NK>
+	<OV>0.0000</OV>
+	<BV>-0.1212</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CARR-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>7618</NK>
+	<OV>0.0000</OV>
+	<BV>-6.6000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CARR-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>7619</NK>
+	<OV>4.4729</OV>
+	<BV>0.0000</BV>
+	<SA>L</SA>
+</row>
+</msg>
+
+<msg>
+	<subject>BMRA.BM.T_CARR-1.BOAV.-1</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<NN>-1</NN>
+	<NK>7620</NK>
+	<OV>0.0000</OV>
+	<BV>-0.8333</BV>
+	<SA>L</SA>
+</row>
+</msg>
+</msgGrp>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 22:00:53:GMT</pubTs>
+	<flow>NONBM</flow>
+<msg>
+	<subject>BMRA.SYSTEM.NONBM</subject>
+	<TP>2017-04-09 22:00:00:GMT</TP>
+<row>
+	<SD>2017-04-09 00:00:00:GMT</SD>
+	<SP>46</SP>
+	<NB>0</NB>
+</row>
+</msg>
+</msgGrp>
+

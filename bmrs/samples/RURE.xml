@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 21:44:51:GMT</pubTs>
+	<flow>RURE</flow>
+<msg>
+	<subject>BMRA.DYNAMIC.T_SCCL-2.RURE</subject>
+<row>
+	<TE>2017-04-09 21:44:00:GMT</TE>
+	<U1>16.0</U1>
+	<UB>99</UB>
+	<U2>3.6</U2>
+	<UC>190</UC>
+	<U3>16.0</U3>
+</row>
+</msg>
+</msgGrp>

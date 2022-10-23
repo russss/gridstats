@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 09:37:27:GMT</pubTs>
+	<flow>NTO</flow>
+<msg>
+	<subject>BMRA.DYNAMIC.T_FOYE-1.NTO</subject>
+<row>
+	<TE>2017-04-10 09:36:00:GMT</TE>
+	<DO>0</DO>
+</row>
+</msg>
+</msgGrp>

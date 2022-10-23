@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2018-03-17 16:45:52:GMT</pubTs>
+	<flow>TEMP</flow>
+<msg>
+	<subject>BMRA.SYSTEM.TEMP</subject>
+	<TP>2018-03-17 16:45:00:GMT</TP>
+<row>
+	<TS>2018-03-17 12:00:00:GMT</TS>
+	<TO>4.800</TO>
+	<TN>8.100</TN>
+	<TL>4.500</TL>
+	<TH>10.700</TH>
+</row>
+</msg>
+</msgGrp>

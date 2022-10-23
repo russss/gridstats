@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 08:51:42:GMT</pubTs>
+	<flow>DISEBSP</flow>
+<msg>
+	<subject>BMRA.SYSTEM.DISEBSP</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<PB>7.00198</PB>
+	<PS>7.00198</PS>
+	<PD>N</PD>
+	<BD>F</BD>
+	<A3>0.00</A3>
+	<A6>0.00</A6>
+	<NI>-938.2698</NI>
+	<AO>34.0495</AO>
+	<AB>-973.0561</AB>
+	<T1>34.0495</T1>
+	<T2>-923.0561</T2>
+	<PP>28.2149</PP>
+	<PC>-972.318</PC>
+	<J1>0</J1>
+	<J2>0</J2>
+	<J3>0</J3>
+	<J4>0</J4>
+</row>
+</msg>
+</msgGrp>

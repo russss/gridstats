@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-09 22:00:56:GMT</pubTs>
+	<flow>SEL</flow>
+<msg>
+	<subject>BMRA.DYNAMIC.T_MEDP-1.SEL</subject>
+<row>
+	<TE>2017-04-09 22:00:00:GMT</TE>
+	<SE>340.000</SE>
+</row>
+</msg>
+</msgGrp>

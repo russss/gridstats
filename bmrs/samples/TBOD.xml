@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msgGrp>
+	<pubTs>2017-04-10 08:51:42:GMT</pubTs>
+	<flow>TBOD</flow>
+<msg>
+	<subject>BMRA.SYSTEM.TBOD</subject>
+<row>
+	<SD>2017-04-10 00:00:00</SD>
+	<SP>19</SP>
+	<OT>47339.5000</OT>
+	<BT>-49392.5000</BT>
+</row>
+</msg>
+</msgGrp>
