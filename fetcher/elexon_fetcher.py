@@ -53,10 +53,10 @@ class ElexonFetcher:
         self.log.info("Initialising...")
         await self.db.connect()
 
+        self.register_fetcher(self.fetch_units, 3600)
         self.register_fetcher(self.fetch_fuel_types, 3600)
 
         self.register_fetcher(self.fetch_rolling_system_demand, 30)
-        # self.register_fetcher(self.fetch_generation_inst, 30)
 
         self.register_fetcher(self.fetch_demand_outturn, 120)
         self.register_fetcher(self.fetch_generation_hh, 120)
@@ -210,6 +210,37 @@ class ElexonFetcher:
             values=[
                 {"ref": row["interconnectorId"], "name": row["interconnectorName"]}
                 for row in interconnectors
+            ],
+        )
+
+    async def fetch_units(self):
+        data = await self.elexon_fetch("reference/bmunits/all")
+        fuel_types = {
+            row["ref"]: row["id"]
+            for row in await self.db.db.fetch_all("SELECT id, ref FROM fuel_type")
+        }
+
+        await self.db.execute_many(
+            query="""INSERT INTO bm_unit (ng_ref, elexon_ref, fuel, party_name, type, fpn)
+                    VALUES (:ng_ref, :elexon_ref,
+                        :fuel,
+                        :party_name,
+                        :type,
+                        :fpn)
+                    ON CONFLICT (ng_ref) DO UPDATE
+                        SET party_name = :party_name, elexon_ref = :elexon_ref,
+                                fuel = :fuel, fpn = :fpn, last_seen = now()
+            """,
+            values=[
+                {
+                    "ng_ref": row["nationalGridBmUnit"],
+                    "elexon_ref": row["elexonBmUnit"],
+                    "fuel": fuel_types.get(row["fuelType"]),
+                    "party_name": row["leadPartyName"],
+                    "type": row["bmUnitType"],
+                    "fpn": row["fpnFlag"],
+                }
+                for row in data
             ],
         )
 
