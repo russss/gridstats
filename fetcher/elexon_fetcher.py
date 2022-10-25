@@ -6,6 +6,7 @@ from dateutil.parser import parse as parse_date
 from datetime import date, datetime, timedelta
 import time
 
+from carbonintensity import CarbonIntensity
 from sources import NGESO
 from database import DB
 
@@ -36,6 +37,7 @@ class ElexonFetcher:
         self.log = logging.getLogger(__name__)
         self.client = httpx.AsyncClient()
         self.ngeso = NGESO()
+        self.intensity = CarbonIntensity()
         self.db = DB()
         self.fetch_jobs = []
 
@@ -58,6 +60,7 @@ class ElexonFetcher:
 
         self.register_fetcher(self.fetch_rolling_system_demand, 30)
 
+        self.register_fetcher(self.fetch_carbon_intensity, 120)
         self.register_fetcher(self.fetch_demand_outturn, 120)
         self.register_fetcher(self.fetch_generation_hh, 120)
         self.register_fetcher(self.fetch_demand_data_update, 120)
@@ -84,6 +87,37 @@ class ElexonFetcher:
                     job.last_run = now
 
             await asyncio.sleep(2)
+
+    async def fetch_carbon_intensity(self):
+        data = await self.intensity.get_intensity(
+            datetime.now() - timedelta(days=14), datetime.now() + timedelta(days=14)
+        )
+
+        await self.db.execute_many(
+            query="""INSERT INTO carbon_intensity_national (time, intensity) VALUES (:time, :intensity)
+                        ON CONFLICT (time) DO UPDATE SET intensity=:intensity""",
+            values=[
+                {
+                    "time": parse_date(row["from"]),
+                    "intensity": row["intensity"]["actual"],
+                }
+                for row in data
+                if row["intensity"]["actual"] is not None
+            ],
+        )
+
+        await self.db.execute_many(
+            query="""INSERT INTO carbon_intensity_national_forecast (time, intensity) VALUES (:time, :intensity)
+                        ON CONFLICT (time) DO UPDATE SET intensity=:intensity""",
+            values=[
+                {
+                    "time": parse_date(row["from"]),
+                    "intensity": row["intensity"]["forecast"],
+                }
+                for row in data
+                if row["intensity"]["forecast"] is not None
+            ],
+        )
 
     async def fetch_demand_data_update(self):
         data = await self.ngeso.get_demand_data_update()
