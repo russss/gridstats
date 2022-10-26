@@ -48,7 +48,7 @@ class ElexonFetcher:
             raise Exception(f"Elexon fetch failed: {res.text}")
         return res.json()
 
-    def register_fetcher(self, fetch_func, frequency):
+    def register_fetcher(self, fetch_func, frequency: int):
         self.fetch_jobs.append(FetchJob(fetch_func, frequency))
 
     async def run(self):

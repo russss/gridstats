@@ -1,4 +1,3 @@
-import sys
 import logging
 import asyncio
 import ssl
@@ -43,5 +42,15 @@ class BMRSClient:
     async def on_message(self, frame, message):
         handler = self.handlers.get(frame.headers["type"])
         if handler:
-            await handler(ET.fromstring(message.decode("utf-8")))
+            try:
+                doc = ET.fromstring(message.decode("utf-8"))
+                if doc.find("msgGrp"):
+                    for msg in doc.iter("msg"):
+                        await handler(msg)
+                else:
+                    await handler(doc)
+
+            except Exception:
+                self.log.exception(f"Exception in handler for message {message}")
+                self.log.error("Message was: %s", message.decode("utf-8"))
         return True
