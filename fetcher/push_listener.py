@@ -92,7 +92,7 @@ class PushListener:
         )
 
     async def handle_sel(self, doc):
-        subject = doc.find("msg").find("subject").text
+        subject = doc.find("subject").text
         unit = unit_from_subject(subject)
         self.log.info(f"Handling SEL ({unit})")
         await self.db.execute_many(
@@ -110,7 +110,7 @@ class PushListener:
         )
 
     async def handle_mel(self, doc):
-        subject = doc.find("msg").find("subject").text
+        subject = doc.find("subject").text
         unit = unit_from_subject(subject)
         self.log.info(f"Handling MEL ({unit})")
         await self.db.execute_many(
@@ -128,7 +128,7 @@ class PushListener:
         )
 
     async def handle_mil(self, doc):
-        subject = doc.find("msg").find("subject").text
+        subject = doc.find("subject").text
         unit = unit_from_subject(subject)
         self.log.info(f"Handling MIL ({unit})")
         await self.db.execute_many(
@@ -146,7 +146,7 @@ class PushListener:
         )
 
     async def handle_pn(self, doc):
-        subject = doc.find("msg").find("subject").text
+        subject = doc.find("subject").text
         unit = unit_from_subject(subject)
         self.log.info(f"Handling PN ({unit})")
         await self.db.execute_many(

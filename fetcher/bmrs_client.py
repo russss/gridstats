@@ -44,7 +44,7 @@ class BMRSClient:
         if handler:
             try:
                 doc = ET.fromstring(message.decode("utf-8"))
-                if doc.find("msgGrp"):
+                if doc.tag == "msgGrp":
                     for msg in doc.iter("msg"):
                         await handler(msg)
                 else:
