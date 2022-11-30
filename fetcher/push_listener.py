@@ -175,8 +175,8 @@ class PushListener:
                     "time": sp_to_datetime(
                         parse_date(row.find("SD").text), int(row.find("SP").text)
                     ),
-                    "lolp": row.find("LP").text,
-                    "dm": row.find("DR").text,
+                    "lolp": float(row.find("LP").text),
+                    "dm": float(row.find("DR").text),
                 }
                 for row in doc.iter("row")
             ],
