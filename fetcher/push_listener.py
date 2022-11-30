@@ -1,13 +1,11 @@
 import asyncio
-from dataclasses import dataclass
 import logging
 
-from sqlalchemy import values
 from bmrs_client import BMRSClient
-import xml.etree.ElementTree as ET
 from dateutil.parser import parse as parse_date
 
 from config import config
+from settlement_periods import sp_to_datetime
 from database import DB
 
 
@@ -28,9 +26,10 @@ class PushListener:
         self.log = logging.getLogger(__name__)
 
         self.client = BMRSClient(config["ELEXON_API_KEY"])
+        self.client.register_handler("LOLPDM", self.handle_lolp_dm)
         self.client.register_handler("FREQ", self.handle_freq)
         self.client.register_handler("FUELINST", self.handle_fuelinst)
-        self.client.register_handler("SYSWARN", self.handle_sys_warn)
+        self.client.register_handler("SYS_WARN", self.handle_sys_warn)
         self.client.register_handler("SEL", self.handle_sel)
         self.client.register_handler("MEL", self.handle_mel)
         self.client.register_handler("MELS", self.handle_mel)
@@ -158,6 +157,26 @@ class PushListener:
                     "time": parse_elexon_timestamp(row.find("TS").text),
                     "unit": unit,
                     "level": float(row.find("VP").text),
+                }
+                for row in doc.iter("row")
+            ],
+        )
+
+    async def handle_lolp_dm(self, doc):
+        self.log.info("Handling LOLPDM")
+        await self.db.execute_many(
+            query="""INSERT INTO lolp_dm (time, loss_of_load_probability, derated_margin)
+                        VALUES (:time, :lolp, :dm)
+                        ON CONFLICT (time) DO UPDATE SET loss_of_load_probability = :lolp,
+                            derated_margin = :dm
+                """,
+            values=[
+                {
+                    "time": sp_to_datetime(
+                        parse_date(row.find("SD").text), int(row.find("SP").text)
+                    ),
+                    "lolp": row.find("LP").text,
+                    "dm": row.find("DR").text,
                 }
                 for row in doc.iter("row")
             ],

@@ -5,10 +5,12 @@ import asyncio
 from dateutil.parser import parse as parse_date
 from datetime import date, datetime, timedelta
 import time
+import csv
 
 from carbonintensity import CarbonIntensity
 from sources import NGESO
 from database import DB
+from config import config
 
 
 def elexon_params(params: dict):
@@ -33,12 +35,13 @@ class FetchJob:
 
 
 class ElexonFetcher:
-    def __init__(self):
+    def __init__(self, api_key):
         self.log = logging.getLogger(__name__)
         self.client = httpx.AsyncClient()
         self.ngeso = NGESO()
         self.intensity = CarbonIntensity()
         self.db = DB()
+        self.api_key = api_key
         self.fetch_jobs = []
 
     async def elexon_fetch(self, path: str, **params):
@@ -48,6 +51,14 @@ class ElexonFetcher:
             raise Exception(f"Elexon fetch failed: {res.text}")
         return res.json()
 
+    async def portal_fetch(self, file: str):
+        url = "https://downloads.elexonportal.co.uk/file/download/"
+        url += file
+        url += "?key=" + self.api_key
+        res = await self.client.get(url)
+        rows = [r for r in res.text.split("\n") if "," in r]
+        return csv.DictReader(rows)
+
     def register_fetcher(self, fetch_func, frequency: int):
         self.fetch_jobs.append(FetchJob(fetch_func, frequency))
 
@@ -55,7 +66,9 @@ class ElexonFetcher:
         self.log.info("Initialising...")
         await self.db.connect()
 
+        self.register_fetcher(self.fetch_parties, 43200)
         self.register_fetcher(self.fetch_units, 3600)
+        self.register_fetcher(self.fetch_units_detail, 43200)
         self.register_fetcher(self.fetch_fuel_types, 3600)
 
         self.register_fetcher(self.fetch_rolling_system_demand, 30)
@@ -279,6 +292,21 @@ class ElexonFetcher:
             ],
         )
 
+    async def fetch_units_detail(self):
+        data = await self.portal_fetch("REGISTERED_BMUNITS_FILE")
+
+    async def fetch_parties(self):
+        data = await self.portal_fetch("REGISTERED_PARTICIPANTS_FILE")
+        await self.db.execute_many(
+            query="""INSERT INTO participant (ref, name) VALUES (:ref, :name)
+                        ON CONFLICT (ref) DO UPDATE SET name = :name, last_seen = now()
+                    """,
+            values=[
+                {"ref": row["Trading Party ID"], "name": row["Trading Party Name"]}
+                for row in data
+            ],
+        )
+
     async def fetch_rolling_system_demand(self, **params):
         data = await self.elexon_fetch("demand/rollingSystemDemand", **params)
         query = "INSERT INTO system_demand (time, demand) VALUES (:time, :demand) ON CONFLICT (time) DO UPDATE SET demand=:demand"
@@ -338,4 +366,4 @@ class ElexonFetcher:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    asyncio.run(ElexonFetcher().run())
+    asyncio.run(ElexonFetcher(config["ELEXON_API_KEY"]).run())
