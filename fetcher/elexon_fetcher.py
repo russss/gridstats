@@ -387,7 +387,9 @@ class ElexonFetcher:
                     values={"bm_unit": bm_unit},
                 )
                 if res is None:
-                    print(f"Missing bm_unit: {bm_unit}")
+                    self.log.info(
+                        f"Missing bm_unit from Wikidata: {bm_unit} ({wd_id})"
+                    )
                     continue
                 unit_ids.append(res["id"])
 
