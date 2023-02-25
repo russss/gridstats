@@ -1,3 +1,4 @@
+from collections import defaultdict
 from typing import Optional
 import httpx
 import logging
@@ -10,6 +11,7 @@ import csv
 from carbonintensity import CarbonIntensity
 from sources import NGESO
 from database import DB
+from wikidata import Wikidata
 from config import config
 
 
@@ -40,6 +42,7 @@ class ElexonFetcher:
         self.client = httpx.AsyncClient()
         self.ngeso = NGESO()
         self.intensity = CarbonIntensity()
+        self.wikidata = Wikidata()
         self.db = DB()
         self.api_key = api_key
         self.fetch_jobs = []
@@ -70,6 +73,7 @@ class ElexonFetcher:
         self.register_fetcher(self.fetch_units, 3600)
         self.register_fetcher(self.fetch_units_detail, 43200)
         self.register_fetcher(self.fetch_fuel_types, 3600)
+        self.register_fetcher(self.fetch_wikidata_plants, 900)
 
         self.register_fetcher(self.fetch_rolling_system_demand, 30)
 
@@ -362,6 +366,36 @@ class ElexonFetcher:
                 for row in data["data"]
             ],
         )
+
+    async def fetch_wikidata_plants(self):
+        plant_names = {}
+        bmrs_ids = defaultdict(list)
+        for item in self.wikidata.get_plants():
+            plant_names[item["id"]] = item["name"]
+            bmrs_ids[item["id"]].append(item["bmrs_id"])
+
+        await self.db.execute_many(
+            """INSERT INTO wikidata_plants (wd_id, name) VALUES (:wd_id, :name) ON CONFLICT (wd_id) DO UPDATE SET name = :name""",
+            values=[{"wd_id": k, "name": v} for k, v in plant_names.items()],
+        )
+
+        for wd_id, bm_units in bmrs_ids.items():
+            unit_ids = []
+            for bm_unit in bm_units:
+                res = await self.db.db.fetch_one(
+                    "SELECT id FROM bm_unit WHERE ng_ref = :bm_unit",
+                    values={"bm_unit": bm_unit},
+                )
+                if res is None:
+                    print(f"Missing bm_unit: {bm_unit}")
+                    continue
+                unit_ids.append(res["id"])
+
+            await self.db.execute_many(
+                """INSERT INTO wd_bm_unit (wd_id, bm_unit) VALUES (:wd_id, :bm_unit)
+                                        ON CONFLICT (bm_unit) DO UPDATE SET wd_id = :wd_id""",
+                values=[{"wd_id": wd_id, "bm_unit": e} for e in unit_ids],
+            )
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ asyncpg = "^0.26.0"
 asyncstdlib = "^3.10.5"
 aiostomp = "^1.6.2"
 python-dotenv = "^0.21.0"
+sparqlwrapper = "^2.0.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^0.982"
