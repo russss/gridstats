@@ -26,6 +26,8 @@ CREATE TABLE operator (
     name TEXT NOT NULL
 );
 
+CREATE TYPE prod_cons AS ENUM ('producer', 'consumer');
+
 INSERT INTO operator (id, name) VALUES 
     (1, 'Electricity North West Limited'),
     (2, 'Northern Powergrid'),
@@ -82,10 +84,14 @@ CREATE TABLE bm_unit (
     elexon_ref TEXT,
     fuel INTEGER REFERENCES fuel_type(id),
     party_name TEXT,
-    type TEXT,
+    type TEXT REFERENCES bm_unit_type(type),
     fpn BOOLEAN,
     last_seen TIMESTAMPTZ NOT NULL DEFAULT now(),
     first_seen TIMESTAMPTZ DEFAULT now(),
+    unit_name TEXT,
+    region INTEGER REFERENCES region(id),
+    participant TEXT REFERENCES participant(ref),
+    prod_cons prod_cons,
 );
 
 CREATE INDEX bm_unit_elexon_ref ON bm_unit(elexon_ref);

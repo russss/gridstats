@@ -299,6 +299,42 @@ class ElexonFetcher:
     async def fetch_units_detail(self):
         data = await self.portal_fetch("REGISTERED_BMUNITS_FILE")
 
+        gsp_region = {
+            row["gsp_group"]: row["id"]
+            for row in await self.db.db.fetch_all("SELECT id, gsp_group FROM region")
+        }
+
+        pc = {
+            "P": "producer",
+            "C": "consumer",
+        }
+
+        await self.db.execute_many(
+            query="""INSERT INTO bm_unit (ng_ref, elexon_ref,
+                        name, region, participant, prod_cons)
+                    VALUES (:ng_ref, :elexon_ref,
+                        :name, :region, :participant, :prod_cons)
+                    ON CONFLICT (elexon_ref) DO UPDATE
+                        SET name = :name, region = :region, participant = :participant,
+                        prod_cons = :prod_cons, last_seen = now()
+            """,
+            values=[
+                {
+                    "ng_ref": row["NGC BMU Name"]
+                    if row["NGC BMU Name"] != ""
+                    else None,
+                    "elexon_ref": row["BM Unit ID"],
+                    "name": row["BMU Name"]
+                    if row["BMU Name"] != row["BM Unit ID"]
+                    else None,
+                    "region": gsp_region.get(row["GSP Group Id"]),
+                    "participant": row["Party ID"],
+                    "prod_cons": pc.get(row["Prod/Cons Flag"]),
+                }
+                for row in data
+            ],
+        )
+
     async def fetch_parties(self):
         data = await self.portal_fetch("REGISTERED_PARTICIPANTS_FILE")
         await self.db.execute_many(
@@ -387,9 +423,7 @@ class ElexonFetcher:
                     values={"bm_unit": bm_unit},
                 )
                 if res is None:
-                    self.log.info(
-                        f"Missing bm_unit from Wikidata: {bm_unit} ({wd_id})"
-                    )
+                    self.log.info(f"Missing bm_unit from Wikidata: {bm_unit} ({wd_id})")
                     continue
                 unit_ids.append(res["id"])
 
