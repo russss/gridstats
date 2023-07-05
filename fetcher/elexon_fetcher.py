@@ -291,14 +291,17 @@ class ElexonFetcher:
             }
 
             if res:
+                update_params = {"id": res["id"]}
+                update_params.update(params)
                 await self.db.execute(
                     """UPDATE bm_unit SET party_name = :party_name, elexon_ref = :elexon_ref,
                                 ng_ref = :ng_ref,
                                 fuel = :fuel, fpn = :fpn, type=:type, last_seen = now()
                         WHERE id = :id""",
-                    {"id": res["id"]}.update(params),
+                    update_params,
                 )
             else:
+                self.logger.info(f"Adding new BM unit {row['nationalGridBmUnit']}")
                 await self.db.execute(
                     """INSERT INTO bm_unit (ng_ref, elexon_ref, fuel, party_name, type, fpn)
                                     VALUES (:ng_ref, :elexon_ref, :fuel, :party_name, :type, :fpn)""",
