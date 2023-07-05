@@ -91,7 +91,6 @@ class ElexonFetcher:
                     job.last_run is None
                     or (now - job.last_run).total_seconds() > job.frequency
                 ):
-
                     start = time.perf_counter()
                     try:
                         async with self.db.db.transaction():
@@ -272,29 +271,38 @@ class ElexonFetcher:
             for row in await self.db.db.fetch_all("SELECT id, ref FROM fuel_type")
         }
 
-        await self.db.execute_many(
-            query="""INSERT INTO bm_unit (ng_ref, elexon_ref, fuel, party_name, type, fpn)
-                    VALUES (:ng_ref, :elexon_ref,
-                        :fuel,
-                        :party_name,
-                        :type,
-                        :fpn)
-                    ON CONFLICT (ng_ref) DO UPDATE
-                        SET party_name = :party_name, elexon_ref = :elexon_ref,
-                                fuel = :fuel, fpn = :fpn, last_seen = now()
-            """,
-            values=[
+        for row in data:
+            # Check if the row exists by National Grid or Elexon reference
+            res = await self.db.db.fetch_one(
+                "SELECT id FROM bm_unit WHERE ng_ref = :ng_ref OR elexon_ref = :elexon_ref",
                 {
                     "ng_ref": row["nationalGridBmUnit"],
                     "elexon_ref": row["elexonBmUnit"],
-                    "fuel": fuel_types.get(row["fuelType"]),
-                    "party_name": row["leadPartyName"],
-                    "type": row["bmUnitType"],
-                    "fpn": row["fpnFlag"],
-                }
-                for row in data
-            ],
-        )
+                },
+            )
+
+            params = {
+                "elexon_ref": row["elexonBmUnit"],
+                "ng_ref": row["nationalGridBmUnit"],
+                "fuel": fuel_types.get(row["fuelType"]),
+                "party_name": row["leadPartyName"],
+                "type": row["bmUnitType"],
+                "fpn": row["fpnFlag"],
+            }
+
+            if res:
+                await self.db.execute(
+                    """UPDATE bm_unit SET party_name = :party_name, elexon_ref = :elexon_ref,
+                                ng_ref = :ng_ref,
+                                fuel = :fuel, fpn = :fpn, type=:type, last_seen = now()""",
+                    params,
+                )
+            else:
+                await self.db.execute(
+                    """INSERT INTO bm_unit (ng_ref, elexon_ref, fuel, party_name, type, fpn)
+                                    VALUES (:ng_ref, :elexon_ref, :fuel, :party_name, :type, :fpn)""",
+                    params,
+                )
 
     async def fetch_units_detail(self):
         data = await self.portal_fetch("REGISTERED_BMUNITS_FILE")
