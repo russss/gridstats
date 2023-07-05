@@ -294,8 +294,9 @@ class ElexonFetcher:
                 await self.db.execute(
                     """UPDATE bm_unit SET party_name = :party_name, elexon_ref = :elexon_ref,
                                 ng_ref = :ng_ref,
-                                fuel = :fuel, fpn = :fpn, type=:type, last_seen = now()""",
-                    params,
+                                fuel = :fuel, fpn = :fpn, type=:type, last_seen = now()
+                        WHERE id = :id""",
+                    {"id": res["id"]}.update(params),
                 )
             else:
                 await self.db.execute(
