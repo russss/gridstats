@@ -301,7 +301,7 @@ class ElexonFetcher:
                     update_params,
                 )
             else:
-                self.logger.info(f"Adding new BM unit {row['nationalGridBmUnit']}")
+                self.log.info(f"Adding new BM unit {row['nationalGridBmUnit']}")
                 await self.db.execute(
                     """INSERT INTO bm_unit (ng_ref, elexon_ref, fuel, party_name, type, fpn)
                                     VALUES (:ng_ref, :elexon_ref, :fuel, :party_name, :type, :fpn)""",
